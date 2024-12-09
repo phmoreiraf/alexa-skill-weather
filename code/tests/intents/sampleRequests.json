@@ -1,0 +1,34 @@
+{
+    "GetWeatherIntent": {
+        "request": {
+            "intent": {
+                "name": "GetWeatherIntent",
+                "slots": {
+                    "CityName": { "value": "Belo Horizonte" }
+                }
+            }
+        }
+    },
+    "SetPreferredCityIntent": {
+        "request": {
+            "intent": {
+                "name": "SetPreferredCityIntent",
+                "slots": {
+                    "CityName": { "value": "Sabará" }
+                }
+            }
+        }
+    },
+    "GetPreferredCityWeatherIntent": {
+        "request": {
+            "session": {
+                "user": {
+                    "userId": "123456"
+                }
+            },
+            "intent": {
+                "name": "GetPreferredCityWeatherIntent"
+            }
+        }
+    }
+}
